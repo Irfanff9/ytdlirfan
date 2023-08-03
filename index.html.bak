@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IRFANFF9</title>
+	<link rel="canonical" href="https://yt.btch.bz" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/94074076?v=4">
+  <style>
+    /* Styling for footer */
+    .footer {
+      background-color: rgba(51,51,51,0.8);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+    /* Styling for hover effect */
+    .footer:hover {
+      opacity: 1;
+    }
+    /* Styling for new credits */
+    .credit-small {
+      font-size: 14px;
+      text-align: center;
+      margin: 10px 0;
+    }
+    @media only screen and (max-width: 768px) {
+      /* Styling for small screens */
+      .credit-small {
+        font-size: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="heading">YOUTUBE DL BY IRFAN</h1>
+  <br>
+  <br>
+  <br>
+  <p style="text-align:center">Enter Url</p>
+  <div class="urlinput-container">
+    <input class="URLinput" placeholder="https://www.youtube.com">
+    <p style="text-align:center">File Name</p>
+    <input class="video-name" placeholder="example_name">
+  </div>
+  <div class="big-container">
+    <div class="button-container">
+      <button class="convert">Video</button>
+      <button class="convert-audio-only">Audio</button>
+    </div>
+  </div>
+  </div>
+  <a href="readme.html" style="text-decoration:none">
+    <p class="credit-small" style="text-align:center">About Us</p>
+  </a>
+  <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Go to top</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+/* Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  background-color: #f7f7f7;
+  font-family: 'Roboto Mono', monospace;
+  color: #444;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none !important;
+  color: #444;
+}
+
+/* Readme Section Styles */
+.readme {
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  margin-top: 15%;
+}
+
+/* Credit Section Styles */
+.credit {
+  text-align: center;
+  margin-top: 7%;
+}
+
+/* URL Input Container Styles */
+.urlinput-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Button Container Styles */
+.button-container {
+  text-align: center;
+}
+
+/* Big Container Styles */
+.big-container {
+  text-align: center;
+}
+
+/* Convert Button Styles */
+.convert,
+.convert-audio-only {
+  outline: none;
+  background-color: #006699;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid #006699;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+/* Convert Button Hover Styles */
+.convert:hover,
+.convert-audio-only:hover {
+  background-color: #0099cc;
+}
+
+/* Input Field Styles */
+input {
+  outline: none;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f2f2f2;
+  color: #444;
+}
+
+/* Input Field Focus Styles */
+input:focus {
+  background-color: #d9d9d9;
+}
